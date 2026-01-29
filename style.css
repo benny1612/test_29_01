@@ -381,10 +381,36 @@ grid-column: 1;;
       border:3px solid rgb(45, 219, 71);
   transform: scale(1);
 }
+.t-circle{ border: 1px solid rgb(196, 39, 80);
+    border-radius: 25px;
+    background-color:rgb(37, 15, 25) ;
+    grid-column:2/12 ;
+    grid-row:19/21 ;
+    justify-self: stretch;
+    padding: 20px 20px;
+}
 
 
-
-
+.t-dot{
+    
+    justify-self: stretch;
+    place-self: stra;
+    font-size: 70px;
+    color: red;
+    z-index: 1;
+    grid-column: 2;
+    grid-row: 18/20;
+    
+}
+.t-txt{
+       justify-self: stretch;
+    place-self: center;
+    font-size: 25px;
+    color: red;
+    z-index: 1;
+    grid-column: 5/8;
+    grid-row: 19/20;
+}
 
 
 
