@@ -392,7 +392,8 @@ grid-column: 1;;
 
 
 .t-dot{
-    
+    padding-bottom: 6px;
+    padding-left: 10px;
     justify-self: stretch;
     place-self: stra;
     font-size: 70px;
@@ -403,6 +404,7 @@ grid-column: 1;;
     
 }
 .t-txt{
+    padding: 10px;
        justify-self: stretch;
     place-self: center;
     font-size: 25px;
@@ -412,9 +414,23 @@ grid-column: 1;;
     grid-row: 19/20;
 }
 
+.t-circle:hover{
+         border:3px solid red;
+  transform: scale(1.1);
+}
 
+footer{
+      background-color: rgb(5, 5, 10);
+  color: rgb(53, 168, 71);
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
 
-
+  position: sticky;
+  bottom:  0;
+}
 
 
 
