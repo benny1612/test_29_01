@@ -102,6 +102,49 @@ border-color: rgb(79, 167, 92);
   transition: transform 5s ease-in-out 5s;
 }
 
+.button-1{
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgb(20, 15, 30);
+    color: white;
+    grid-row:13/14 ;
+    grid-column: 2/4;
+    justify-self:stretch;
+    place-self: start;
+}
+.button-2{
+        font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgb(20, 15, 30);
+    color: white;
+    grid-row:13/14 ;
+    grid-column: 4/6;
+    justify-self:stretch;
+    place-self: start;
+}
+.button-3{
+        font-size: 15px;
+        margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:rgb(20, 15, 30);
+    color: white;
+    grid-row:13/14 ;
+    grid-column: 6/8;
+    justify-self:stretch;
+    place-self: start;
+}
+.hover-b:hover{
+    border:3px solid rgb(45, 219, 71);
+  transform: scale(1.5);
+
+}
+
 
 
 
